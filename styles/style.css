@@ -15,7 +15,7 @@
     --unnamed-font-size-30: 30px;
     --unnamed-font-size-35: 35px;
     --unnamed-font-size-40: 40px;
-    --unnamed-font-size-45: 45px;
+    --unnamed-font-size-55: 55px;
 
     --unnamed-character-spacing-0: 0px;
 
@@ -30,48 +30,41 @@
     /* Styles - var= variantes*/
 
     .menu-navegacion{
-        background: var(--azuloscuro);
-        mix-blend-mode: multiply;
-        opacity: 0,80;
-        display: flex; /* los iconos quedan de lado a lado*/
+        background-color: var(--azuloscuro);
+        display: flex; /* los iconos en una misma linea*/
         justify-content: space-between; /* los iconos quedan de lado a lado*/
-        align-items: center;
+        align-items: center; /*en el centro del background*/
+        padding: 30px 50px; /*borde entre cosas*/
+        position: fixed; /*para hacer scrul*/
+        left: 0;
+        top: 0;
+        right: 0;
     }
+    
+    .menu-link {
+        font-family: var(--unnamed-font-family-gotham);
+        font-weight: var(--unnamed-font-weight-bold);
+        font-size: var(--unnamed-font-size-35);
+        color: var(--blanco);
+        text-decoration: none;/* para quitar subrayado link*/
+        display: inline-block; /*en linea*/
+        margin-left: 60px;
+        }
+    .menu-link:hover{
+        text-decoration: underline; /* paa poner subrayado link*/
+    }
+    
+    h1 {
+        font-family: var(--unnamed-font-family-gotham);
+        font-weight: var(--unnamed-font-weight-bold);
+        font-size: var(--unnamed-font-size-55);
+        line-height: var(--unnamed-line-spacing-63);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--amarillo);
+        }
 
+    /*------------------------------------------------------------*/    
 
-    footer {
-    font-family: var(--unnamed-font-family-gotham);
-    font-weight: var(--unnamed-font-weight-normal);
-    font-size: var(--unnamed-font-size-30);
-    line-height: var(--unnamed-line-spacing-36);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--blanco);
-    }
-    lista {
-    font-family: var(--unnamed-font-family-gotham);
-    font-weight: var(--unnamed-font-weight-normal);
-    font-size: var(--unnamed-font-size-35);
-    line-height: var(--unnamed-line-spacing-65);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--blanco);
-    }
-    body {/* p */
-    font-family: var(--unnamed-font-family-gotham);
-    font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-normal);
-    font-size: var(--unnamed-font-size-35);
-    line-height: var(--unnamed-line-spacing-42);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--blanco);
-    }
-    menu-link {
-    font-family: var(--unnamed-font-family-gotham);
-    font-weight: var(--unnamed-font-weight-bold);
-    font-size: var(--unnamed-font-size-35);
-    line-height: var(--unnamed-line-spacing-49);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--blanco);
-    }
     h2 {
     font-family: var(--unnamed-font-family-gotham);
     font-weight: var(--unnamed-font-weight-bold);
@@ -80,15 +73,40 @@
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--amarillo);
     }
-    h1 {
+  
+    .lista {
     font-family: var(--unnamed-font-family-gotham);
-    font-weight: var(--unnamed-font-weight-bold);
-    font-size: var(--unnamed-font-size-45);
-    line-height: var(--unnamed-line-spacing-63);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-35);
+    line-height: var(--unnamed-line-spacing-65);
     letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--amarillo);
+    color: var(--blanco);
     }
-    
+
+    body {/* p */
+    font-family: var(--unnamed-font-family-gotham);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-35);
+    line-height: var(--unnamed-line-spacing-42);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--blanco);
+    background-color: var(--azulclaro);
+    }
+
+
+
+    footer {
+        font-family: var(--unnamed-font-family-gotham);
+        font-weight: var(--unnamed-font-weight-normal);
+        font-size: var(--unnamed-font-size-30);
+        line-height: var(--unnamed-line-spacing-36);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--blanco);
+        }
+    .page{
+        background-color: var(--azuloscuro);
+    }
     
 
     
