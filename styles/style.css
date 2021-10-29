@@ -34,13 +34,16 @@
         display: flex; /* los iconos en una misma linea*/
         justify-content: space-between; /* los iconos quedan de lado a lado*/
         align-items: center; /*en el centro del background*/
-        padding: 30px 50px; /*borde entre cosas*/
+        padding: 30px 100px; /*borde entre cosas*/
         position: fixed; /*para hacer scrul*/
         left: 0;
         top: 0;
         right: 0;
     }
-    
+    /*.menu-navegacion{
+        background-color: var(--azuloscuro);
+        opacity: 10%;
+    }*/
     .menu-link {
         font-family: var(--unnamed-font-family-gotham);
         font-weight: var(--unnamed-font-weight-bold);
@@ -51,7 +54,7 @@
         margin-left: 60px;
         }
     .menu-link:hover{
-        text-decoration: underline; /* paa poner subrayado link*/
+        color: var(--amarillo);
     }
     
     h1 {
@@ -65,6 +68,12 @@
 
     /*------------------------------------------------------------*/    
 
+    .page{
+        background-color: var(--azuloscuro);
+        padding: 30px;
+        
+    }
+        
     h2 {
     font-family: var(--unnamed-font-family-gotham);
     font-weight: var(--unnamed-font-weight-bold);
@@ -72,6 +81,7 @@
     line-height: var(--unnamed-line-spacing-46);
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--amarillo);
+    width: 1517px;
     }
   
     .lista {
@@ -97,16 +107,22 @@
 
 
     footer {
+        background-color: var(--azuloscuro);
+        color: var(--blanco);
+        display: flex; /* los iconos en una misma linea*/
+        justify-content: space-between; /* los iconos quedan de lado a lado*/
+        align-items: center; /*en el centro del background*/
+        padding: 10px 10px; /*borde entre cosas*/
+        }
+
+    h3{
         font-family: var(--unnamed-font-family-gotham);
         font-weight: var(--unnamed-font-weight-normal);
         font-size: var(--unnamed-font-size-30);
-        line-height: var(--unnamed-line-spacing-36);
-        letter-spacing: var(--unnamed-character-spacing-0);
         color: var(--blanco);
-        }
-    .page{
-        background-color: var(--azuloscuro);
-    }
-    
+        padding: 28px 170px;
+    }    
+
+
 
     
