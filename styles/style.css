@@ -8,6 +8,7 @@
     
     /* Font/text values */
     --unnamed-font-family-gotham: Gotham;
+    --unnamed-font-family-rocket-clouds-demo: Rocket Clouds DEMO;
     --unnamed-font-style-normal: normal;
     --unnamed-font-weight-bold: bold;
     --unnamed-font-weight-normal: normal;
@@ -15,7 +16,7 @@
     --unnamed-font-size-30: 30px;
     --unnamed-font-size-35: 35px;
     --unnamed-font-size-40: 40px;
-    --unnamed-font-size-55: 55px;
+    --unnamed-font-size-70: 70px;
 
     --unnamed-character-spacing-0: 0px;
 
@@ -73,9 +74,6 @@
     .page{
         background-color: var(--azuloscuro);
         padding: 100px;
-        top: 800px;
-       
-        
     }
         
     h2 {
@@ -141,31 +139,11 @@
         
     }
 
-/*cinta en imagenes*/
-.cinta {
-    
-    content: "";
-
-    width: 100px;
-    height: 30px;
- 
-    top: 20px;
-    margin: auto;
-    background: rgba(255,255,200,0.6);
-    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-    box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-    }
-    /* Esto es sólo algo de estilo adicional para la imagen */
-    .cinta img {
-    border: 1px solid #ddd;
-    margin: 0 20px;
-    padding: 8px;
-    background: #fff;
-    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-    box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-    }
-
-
-    
+    h4 {
+font-family: var(--unnamed-font-family-rocket-clouds-demo);
+font-style: var(--unnamed-font-style-normal);
+font-size: var(--unnamed-font-size-70);
+line-height: var(--unnamed-line-spacing-46);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--amarillo);
+}
