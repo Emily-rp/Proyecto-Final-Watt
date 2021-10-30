@@ -74,6 +74,7 @@
     .page{
         background-color: var(--azuloscuro);
         padding: 100px;
+
     }
         
     h2 {
@@ -117,23 +118,21 @@
         font-weight: var(--unnamed-font-weight-normal);
         font-size: var(--unnamed-font-size-30);
         color: var(--blanco);
-        padding: 28px 170px 0px 300px; 
+        
     }  
     
     
     .box1{
         
-        padding: 5px 900px 5px 10px;
-     
         margin-bottom: 60px;
         float:left;
         top: 1000;
-       width: 1000px;
+        width: 1000px;
         height: 600px;        
        
     }
     .box2{
-        padding: 5px 10px 5px 10px;
+       float: right;
         margin-top: 60px;
         margin-bottom: 60px;
         width: 10;
@@ -150,11 +149,8 @@ color: var(--amarillo);
 }
 
 .imgenes{
+    justify-content: space-between; /* los iconos quedan de lado a lado*/
 
-}
-
-img.alinia-texto{
-    vertical-align: text-top;
 }
 
 .page-bibliografia{
