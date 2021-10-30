@@ -84,6 +84,7 @@
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--amarillo);
     
+    
 
     }
   
@@ -146,4 +147,19 @@ font-size: var(--unnamed-font-size-70);
 line-height: var(--unnamed-line-spacing-46);
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--amarillo);
+}
+
+.imgenes{
+
+}
+
+img.alinia-texto{
+    vertical-align: text-top;
+}
+
+.page-bibliografia{
+    background-color: var(--azuloscuro);
+    padding: 100px;
+    align-items: center;
+    display: inline-block; /*en linea*/
 }

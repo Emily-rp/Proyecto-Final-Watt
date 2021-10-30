@@ -4,49 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria</title>
+    <title>Galería</title>
     <link rel="stylesheet" href="styles/style.css"> <!--creación style css3-->
     <script src="https://kit.fontawesome.com/c672bf2245.js" crossorigin="anonymous"></script> <!--para los iconos-->
 
 </head>
-<body> <!--aquí empieza mi código-->
+<header class="menu-navegacion"> <!--"son clases"-->
+    <a href="https://info.ttu-cr.com/watt" class="logo-watt"> <!--Logo-->
+        <img src="imagenes/LogoWatt@2x.png" alt="Logo W@tt">
+    </a>
+    <h1>Introducción al Desarrollo Web</h1>
+    <div>
+    <nav class="menu" > 
+    <a href="index.html" class="menu-link" >Inicio</a>
+    <a href="index2.html" class="menu-link">Biografía</a>
+    <a href="index3.html" class="menu-link">Galería</a>
+   </nav>
+   </div>
+</header>
 
-    <!--aqui sería el header-->
-     <header class="menu-navegacion"> <!--"son clases"-->
-         <a href="https://info.ttu-cr.com/watt" class="logo-watt"> <!--Logo-->
-             <img src="imagenes/LogoWatt@2x.png" alt="Logo W@tt">
-         </a>
-         <h1>Introducción al Desarrollo Web</h1>
-         <div>
-         <nav class="menu" > 
-         <a href="index.html" class="menu-link" >Inicio</a>
-         <a href="index2.html" class="menu-link">Biografía</a>
-         <a href="index3.html" class="menu-link">Galería</a>
-        </nav>
-        </div>
-     </header>
-    
-      <!--empieza el contenido-->
-      <img src="imagenes/development-web@2x.png" alt="computadora programación">
-
-     <main class="page-container">
+<body>
+    <img src="imagenes/development-web@2x.png" alt="computadora programación" style="margin-bottom: 100px;">
+    <main class="imagenes">
+        <h2>Galería</h2> 
+        <p> A continuacion presento algunos de los dibujos que he realizado, todos están hecho a tamaño carta y con la tecnica del grafito.</h3>
         <div class="page">
-            <img src="dibujo/kratos.png" alt="kratos">
-            <img src="dibujo/Loki.png" alt="loki">
-            <img src="dibujo/blackwidow.png" alt="">
-        </main>
-
-        <img src="imagenes/programming@2x.png" alt="código">
-        <footer class="footer">
-           
-           <h3> © 2021 Hecho por Emily Rodríguez Pérez</h3>
-           <div>
-               <nav class="menu-footer">
-               <a href="https://www.google.com/search?q=facebook&oq=facebook&aqs=chrome.0.69i59j46i131i199i433i465i512j69i59j0i131i433i512j69i60l4.3242j0j4&sourceid=chrome&ie=UTF-8"><i class="fab fa-facebook-square" style="color:white;"></i></a>
-               <a href="https://www.google.com/search?q=instagram&ei=xnZ7YbOpFYKNwbkPwc0P&oq=insta&gs_lcp=Cgdnd3Mtd2l6EAMYADIKCAAQsQMQgwEQQzIECAAQQzIKCAAQsQMQgwEQQzIHCAAQsQMQQzIICAAQgAQQsQMyCggAELEDEIMBEEMyCwgAEIAEELEDEIMBMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDOgcIABBHELADOhAILhDHARDRAxCwAxBDEJMCOgcIABCwAxBDOggIABCxAxCDAToOCC4QgAQQsQMQxwEQowI6BQgAEIAEOgUIABCxAzoKCC4QxwEQowIQQzoKCC4QxwEQ0QMQQzoECC4QQzoNCC4QsQMQxwEQowIQQzoLCC4QgAQQxwEQowJKBAhBGABQ6to3WNffN2Dp6DdoA3ACeACAAW-IAYMEkgEDMS40mAEAoAEByAEKwAEB&sclient=gws-wiz"><i class="fab fa-instagram-square" style="color: white;"></i></a>
-               <a href="https://www.google.com/search?q=linkedin&ei=W3p7Yb7cAtuWwbkPx9GH-Ag&gs_ssp=eJzj4tLP1TcoNzC2MDBVYDRgdGDw4sjJzMtOTcnMAwBRaga5&oq=lin&gs_lcp=Cgdnd3Mtd2l6EAMYADIQCC4QsQMQxwEQ0QMQQxCTAjIKCAAQsQMQgwEQQzIHCAAQsQMQQzIHCAAQsQMQQzIHCAAQsQMQQzIHCAAQsQMQQzIOCC4QgAQQsQMQxwEQrwEyCAgAEIAEELEDMggIABCABBCxAzIICC4QgAQQsQM6BwgAEEcQsAM6EAguEMcBENEDELADEEMQkwI6DQguEMcBENEDELADEEM6CAgAELEDEIMBOgsIABCABBCxAxCDAToICC4QsQMQgwE6DgguEIAEELEDEMcBENEDOgsILhCABBCxAxCDAToFCAAQsQM6BQgAEIAEOgQIABBDOgcILhCxAxBDOgoILhDHARDRAxBDSgQIQRgAUNGfAliQowJgzbcCaANwAngAgAF2iAHIApIBAzAuM5gBAKABAcgBCsABAQ&sclient=gws-wiz"style="color:white;" ><i class="fab fa-linkedin" ></i></a>
-           </nav>
-           </div>
-        </footer>
+     <img src="Galeria/blackwidow.png" alt="blackwidow" style="width: 300px;">
+     <img src="Galeria/kratos.png" alt="kratos" style="width: 300px;">
+     <img src="Galeria/Loki.png" alt="Loki" style="width: 300px;">
+     <img src="Galeria/blackwidow.png" alt="blackwidow"style="width: 300px;">
+    </div>
+    </main>
+    <img src="imagenes/programming@2x.png" alt="código" style="width: 300px;">
+    
+ <footer class="footer">
+    
+    <h3> © 2021 Hecho por Emily Rodríguez Pérez</h3>
+    <div>
+        <nav class="menu-footer">
+        <a href="https://www.google.com/search?q=facebook&oq=facebook&aqs=chrome.0.69i59j46i131i199i433i465i512j69i59j0i131i433i512j69i60l4.3242j0j4&sourceid=chrome&ie=UTF-8"><i class="fab fa-facebook-square" style="color:white;"></i></a>
+        <a href="https://www.google.com/search?q=instagram&ei=xnZ7YbOpFYKNwbkPwc0P&oq=insta&gs_lcp=Cgdnd3Mtd2l6EAMYADIKCAAQsQMQgwEQQzIECAAQQzIKCAAQsQMQgwEQQzIHCAAQsQMQQzIICAAQgAQQsQMyCggAELEDEIMBEEMyCwgAEIAEELEDEIMBMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDOgcIABBHELADOhAILhDHARDRAxCwAxBDEJMCOgcIABCwAxBDOggIABCxAxCDAToOCC4QgAQQsQMQxwEQowI6BQgAEIAEOgUIABCxAzoKCC4QxwEQowIQQzoKCC4QxwEQ0QMQQzoECC4QQzoNCC4QsQMQxwEQowIQQzoLCC4QgAQQxwEQowJKBAhBGABQ6to3WNffN2Dp6DdoA3ACeACAAW-IAYMEkgEDMS40mAEAoAEByAEKwAEB&sclient=gws-wiz"><i class="fab fa-instagram-square" style="color: white;"></i></a>
+        <a href="https://www.google.com/search?q=linkedin&ei=W3p7Yb7cAtuWwbkPx9GH-Ag&gs_ssp=eJzj4tLP1TcoNzC2MDBVYDRgdGDw4sjJzMtOTcnMAwBRaga5&oq=lin&gs_lcp=Cgdnd3Mtd2l6EAMYADIQCC4QsQMQxwEQ0QMQQxCTAjIKCAAQsQMQgwEQQzIHCAAQsQMQQzIHCAAQsQMQQzIHCAAQsQMQQzIHCAAQsQMQQzIOCC4QgAQQsQMQxwEQrwEyCAgAEIAEELEDMggIABCABBCxAzIICC4QgAQQsQM6BwgAEEcQsAM6EAguEMcBENEDELADEEMQkwI6DQguEMcBENEDELADEEM6CAgAELEDEIMBOgsIABCABBCxAxCDAToICC4QsQMQgwE6DgguEIAEELEDEMcBENEDOgsILhCABBCxAxCDAToFCAAQsQM6BQgAEIAEOgQIABBDOgcILhCxAxBDOgoILhDHARDRAxBDSgQIQRgAUNGfAliQowJgzbcCaANwAngAgAF2iAHIApIBAzAuM5gBAKABAcgBCsABAQ&sclient=gws-wiz"style="color:white;" ><i class="fab fa-linkedin" ></i></a>
+    </nav>
+    </div>
+ </footer>
+   
+</body>
 
 </html>
